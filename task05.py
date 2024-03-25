@@ -12,5 +12,5 @@ for number in interval:
     if (number**0.5).is_integer() and number % c == 0:
         lst.append(number)
 
-result = reduce(lambda x, y: x*y, lst)
+result = reduce(lambda x, y: x * y, lst)
 print(result)

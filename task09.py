@@ -10,7 +10,7 @@ def to_format(form=None):
             
             if form == 'xml':
                 root = ET.Element('root')
-                ET.SubElement(root, 'value').text = str(temp)
+                ET.SubElement(root, 'text').text = str(temp)
                 result = ET.tostring(root)
                 print(result)
                 return result     
@@ -29,17 +29,17 @@ def to_format(form=None):
     return decorator
 
 
-@to_format('xml')
+@to_format()
 def return_text():
     return "Hello, World!"
 
 
-@to_format('yaml')
+@to_format()
 def return_list():
     return ["World", "Planets", "Countries", "Cities"]
 
 
-@to_format('xml')
+@to_format()
 def return_dictionary():
     return {1: "a", 2: "b", 3: "c", 4: "d"}
 

@@ -1,0 +1,12 @@
+2024-03-23 16:27:10.550687 unsupported operand type(s) for /: 'str' and 'str'
+2024-03-23 16:28:03.863019 unsupported operand type(s) for /: 'str' and 'str'
+2024-03-23 16:28:10.087339 unsupported operand type(s) for /: 'str' and 'str'
+2024-03-23 16:29:02.266722 unsupported operand type(s) for /: 'int' and 'str'
+2024-03-23 16:29:53.292090 division by zero
+2024-03-23 16:30:15.591020 division by zero
+2024-03-23 16:30:25.154078 invalid literal for int() with base 10: 'dasda'
+2024-03-23 16:31:32.037871 integer division or modulo by zero
+2024-03-23 16:31:35.312177 invalid literal for int() with base 10: '123asd'
+2024-03-23 16:32:37.883565 <class 'Exception'>
+2024-03-23 16:32:51.467556 <class 'Exception'>
+2024-03-23 16:33:14.820363 integer division or modulo by zero
